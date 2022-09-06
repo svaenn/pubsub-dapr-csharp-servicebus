@@ -15,7 +15,7 @@ var tags = {
 }
 
 resource containerAppsEnvironment 'Microsoft.App/managedEnvironments@2022-03-01' existing = {
-  name: 'cae-${resourceToken}'
+  name: 'cae2-${resourceToken}'
 }
 
 resource containerRegistry 'Microsoft.ContainerRegistry/registries@2022-02-01-preview' existing = {
